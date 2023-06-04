@@ -1,0 +1,12 @@
+suministradores tienen articulos, varios articulos, un pago.
+comprador var nif, nombre, direccion. varios articulos, un pago.
+articulos var id, nombre, pventa
+de cada envio, una factura, id de factura, entre 1 y 999, fecha de envio, el comprador, la direccion del envio, los articulos, cantidad, importe total y sin descuento. 
+metodo comprar(). comprobar nif y password y saludar si es correcto. 
+
+el nif tiene que tener 8 digitos y la password entre 1 y 14 caracteres. 
+metodo aniadir() articulos a la cesta. se puede pedir como max 99 articulos iguales. sumar catnidades, si es 0, no se aniade. si es negativa, se quitan unidades de la cesta. si al quitar <= 0 -> se elimina el articulo. enter para salir del programa. los art en la cesta se ordenan por id -> comparable
+
+metodo descuento() -> aplicar descuento
+
+metodo factura() -> guardar las facturas en una carpeta que tendra los ficheros de las facturas cuyo nombre sera: facturaxxx, las x es el numero de factura. si no se encuentra el descuento en la base de datos, se pide al usuario.
